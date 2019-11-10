@@ -1,0 +1,290 @@
+{
+  "title": "Women's",
+  "_comment": "teams need to be sorted by index, id = bow number, index = id - 1",
+  "teams": [{
+    "id": 1,
+    "country": "GER",
+    "shortTitle": "HavelQueen",
+    "title": "HavelQueen Achter",
+    "crew": "N.N"
+  }, {
+    "id": 2,
+    "title": "Ruder Verein Rauxel",
+    "country": "GER",
+    "shortTitle": "RV Rauxel",
+    "crew": "N.N"
+  }, {
+    "id": 3,
+    "country": "GBR",
+    "title": "Nottingham Rowing Club",
+    "shortTitle": "Nottingham RC",
+    "crew": "N.N"
+  }, {
+    "id": 4,
+    "country": "GER",
+    "title": "Ruderclub am Wannensee",
+    "shortTitle": "RC Wannensee",
+    "crew": "N.N"
+  }, {
+    "id": 5,
+    "country": "GER",
+    "title": "Crefelder Ruder-Club",
+    "shortTitle": "Crefelder RC",
+    "crew": "N.N"
+  }, {
+    "id": 6,
+    "country": "GBR",
+    "title": "University of London Boat Club",
+    "shortTitle": "London BC",
+    "crew": "N.N"
+  }, {
+    "id": 7,
+    "country": "NED",
+    "title": "Nerus Amsterdam",
+    "shortTitle": "Nerus Amsterdam",
+    "crew": "N.N"
+  }, {
+    "id": 8,
+    "country": "GER",
+    "title": "Heidelberger Leben-Achter",
+    "shortTitle": "Heidelberg Eight",
+    "crew": "N.N"
+  }, {
+    "id": 9,
+    "country": "CZE",
+    "title": "Slavia Prague Eight",
+    "shortTitle": "Slavia Prague",
+    "crew": "N.N"
+  }, {
+    "id": 10,
+    "country": "GER",
+    "title": "Hanauer Ruder-Club Hassia",
+    "shortTitle": "Hanau RC",
+    "crew": "N.N"
+  }],
+  "timeTrials": [{
+    "title": "Zeitlauf 1",
+    "time": "10:44",
+    "lane1": {
+      "teamId": 0,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 0,
+      "time": "-"
+    }
+  }, {
+    "title": "Zeitlauf 2",
+    "time": "10:48",
+    "lane1": {
+      "teamId": 0,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 0,
+      "time": "-"
+    }
+  }, {
+    "title": "Zeitlauf 3",
+    "time": "10:52",
+    "lane1": {
+      "teamId": 0,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 0,
+      "time": "-"
+    }
+  }, {
+    "title": "Zeitlauf 4",
+    "time": "10:56",
+    "lane1": {
+      "teamId": 0,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 0,
+      "time": "-"
+    }
+  }, {
+    "title": "Zeitlauf 5",
+    "time": "11:00",
+    "lane1": {
+      "teamId": 0,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 0,
+      "time": "-"
+    }
+  }],
+  "repechages": [{
+    "title": "Repechage 1",
+    "time": "11:42",
+    "lane1": {
+      "teamId": 0,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 0,
+      "time": "-"
+    }
+  }, {
+    "title": "Repechage 2",
+    "time": "11:46",
+    "lane1": {
+      "teamId": 0,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 0,
+      "time": "-"
+    }
+  }],
+  "quarterFinals": [{
+    "title": "Quarter Final 1",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 0,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 0,
+      "time": "-"
+    }
+  }, {
+    "title": "Quarter Final 2",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 0,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 0,
+      "time": "-"
+    }
+  }, {
+    "title": "Quarter Final 3",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 0,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 0,
+      "time": "-"
+    }
+  }, {
+    "title": "Quarter Final 4",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 0,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 0,
+      "time": "-"
+    }
+  }],
+  "semiFinals": [{
+    "title": "Zeitlauf 7",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 1,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 2,
+      "time": "-"
+    }
+  }, {
+    "title": "Zeitlauf 7",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 1,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 2,
+      "time": "-"
+    }
+  }, {
+    "title": "Zeitlauf 7",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 1,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 2,
+      "time": "-"
+    }
+  }, {
+    "title": "Zeitlauf 7",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 1,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 2,
+      "time": "-"
+    }
+  }],
+  "finals": [{
+    "title": "Zeitlauf 7",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 1,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 2,
+      "time": "-"
+    }
+  }, {
+    "title": "Zeitlauf 7",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 1,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 2,
+      "time": "-"
+    }
+  }, {
+    "title": "Zeitlauf 7",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 1,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 2,
+      "time": "-"
+    }
+  }, {
+    "title": "Zeitlauf 7",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 1,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 2,
+      "time": "-"
+    }
+  }, {
+    "title": "Zeitlauf 7",
+    "time": "10:04",
+    "lane1": {
+      "teamId": 1,
+      "time": "-"
+    },
+    "lane2": {
+      "teamId": 2,
+      "time": "-"
+    }
+  }]
+}

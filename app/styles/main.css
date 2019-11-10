@@ -1,0 +1,140 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+/* CUSTOM */
+
+.time {
+  text-align: right;
+}
+
+.league .col-md-2 {
+  border-width: 0 2px 0px 0;
+  border-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(200, 200, 200, 1), rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.league .col-md-2 table{
+    word-wrap: break-word;    
+    table-layout: fixed;
+}
+
+.league .col-md-2 table td{
+     overflow: hidden;
+     font-size: 12px;
+     padding: 6px;
+}
+
+.league .flag {
+  padding: 0 2px 0 2px;
+}
+
+.league img {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+}
+
+.race-top-24 {
+  background-color: rgba(255,0,0,0.05);
+}
+
+.race-top-16 {
+  background-color: rgba(0,255,0,0.1)
+}
+
+.race-top-12 {
+  background-color: rgba(0,255,0,0.05)
+}
+
+.race-top-8 {
+  background-color: rgba(0,0,255,0.1)
+}
+
+.race-top-4 {
+  background-color: rgba(0,0,255,0.05);  
+}
+
+.team-highlighted {
+  background-color: rgba(255,220,255,1);  
+}
+
+.editable-input {
+  width: 100px !important;
+}

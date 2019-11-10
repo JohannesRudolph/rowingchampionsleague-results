@@ -1,0 +1,72 @@
+<h4>{{league.title}} League</h4>
+<span class="text-muted">(click a team to highlight, colors indicate progression possibilities)</span>
+<div class="row league">
+    <div class="col-md-2">
+        <h5>Time Trial</h5>
+        <div ng-repeat="race in league.timeTrials">
+            <race data="race" teams="league.teams" highlighted="highlighted"></race>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <h5>Repechages</h5>
+        <div ng-repeat="race in league.repechages">
+            <race data="race" teams="league.teams" highlighted="highlighted"></race>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <h5>Last 16</h5>
+        <div ng-repeat="race in league.last16">
+            <div ng-class="{ 'race-top-4' : $index < 8, 'race-top-24' : $index >= 8 }">
+                <race data="race" teams="league.teams" highlighted="highlighted"></race>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <h5>Quarter Final</h5>
+        <div ng-repeat="race in league.quarterFinals">
+            <div ng-class="{ 'race-top-4' : $index < 4, 'race-top-12' : $index >= 4 }">
+                <race data="race" teams="league.teams" highlighted="highlighted"></race>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <h5>Semi Final</h5>
+        <div ng-repeat="race in league.semiFinals">
+            <div ng-class="{ 'race-top-4' : $index < 2, 'race-top-8' : $index < 4, 'race-top-12' : $index < 6, 'race-top-16' : $index < 8, 'race-top-24' : true }">
+                <race data="race" teams="league.teams" highlighted="highlighted"></race>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <h5>Final</h5>
+        <div ng-repeat="race in league.finals">
+            <div ng-class="{ 'race-top-4' : $index < 2, 'race-top-8' : $index < 4, 'race-top-12' : $index < 6, 'race-top-16' : $index < 8, 'race-top-24' : true }">
+                <race data="race" teams="league.teams" highlighted="highlighted"></race>
+            </div>
+        </div>
+    </div>
+</div>
+<hr/>
+<div ng-if="showTeams">
+    <h4>Teams</h4>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped">
+                <tr>
+                    <th>#</th>
+                    <th>Country</th>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <th>Crew</th>
+                </tr>
+                <tr ng-repeat="team in league.teams">
+                    <td>{{team.id}}</td>
+                    <td><span editable-text="team.country">{{team.country || '-'}}</span> <img ng-src="images/flags/{{team.country}}.png"></td>
+                    <td><span editable-text="team.shortTitle">{{team.shortTitle || '-'}}</span></td>
+                    <td><span editable-text="team.title">{{team.title || '-'}}</span></td>
+                    <td><span editable-text="team.crew">{{team.crew || '-'}}</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
